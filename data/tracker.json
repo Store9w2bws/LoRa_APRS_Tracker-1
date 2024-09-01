@@ -2,11 +2,11 @@
 	"debug": false,
 	"beacons": [
 		{
-			"callsign": "NOCALL-7",
-			"path": "WIDE1-1",
+			"callsign": "9W2BWS-5",
+			"path": "WIDE2-1",
 			"message": "LoRa Tracker",
 			"timeout": 1,
-			"symbol": "[",
+			"symbol": "<",
 			"overlay": "/",
 			"smart_beacon": {
 				"active": true,
@@ -26,8 +26,8 @@
 		"alt_message": true
 	},
 	"lora": {
-		"frequency_rx": 433775000,
-		"frequency_tx": 433775000,
+		"frequency_rx": 433400000,
+		"frequency_tx": 433400000,
 		"power": 20,
 		"spreading_factor": 12,
 		"signal_bandwidth": 125000,
